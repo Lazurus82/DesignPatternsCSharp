@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatternsClass
+namespace AbstractFactory
 {
-    public interface IBicycle
+    public interface IBikeFrame
     {
-        BikeColor ColorType { get; }
-
-        void Paint(BikeColor color);
+       string BikeFrameParts {get;}
+         
     }
 }

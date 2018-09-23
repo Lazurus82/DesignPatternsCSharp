@@ -21,5 +21,11 @@ namespace DesignPatternsClass
 
         }
 
+        public override decimal Price
+        {
+            get { return 450.00m; }
+        }
+
+
     }
 }
